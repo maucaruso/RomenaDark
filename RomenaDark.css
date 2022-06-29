@@ -1704,3 +1704,14 @@ pre.line-numbers > code {
   padding-right: 0.8em;
   text-align: right;
 }
+
+.cm-s-obsidian .HyperMD-header.HyperMD-header-1, .cm-s-obsidian .HyperMD-header.HyperMD-header-2, .cm-s-obsidian .HyperMD-header.HyperMD-header-3 {
+  padding-top: 1.5rem;
+}
+
+.cm-s-obsidian .HyperMD-header.HyperMD-header-1:after, .cm-s-obsidian .HyperMD-header.HyperMD-header-2:after, .cm-s-obsidian .HyperMD-header.HyperMD-header-3:after {
+  content: '';
+  display: block;
+  border: 2px solid snow;
+  margin-bottom: 1rem;
+}
